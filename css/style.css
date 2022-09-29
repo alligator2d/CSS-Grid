@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.grid-container {
+  margin-top: 82px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: 2fr;
+  gap: 60px;
+  column-gap: 60px;
+}
+.grid-container,
+img {
+  width: 100%;
+}
+.grid-elem {
+  width: 240px;
+  color: black;
+  line-height: 50px;
+  text-align: left;
+  font-size: 26px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+}
+.grid__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
